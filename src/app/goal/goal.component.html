@@ -1,1 +1,10 @@
-<p>goal works!</p>
+<div>
+  <h2>My Goals</h2>
+  <hr>
+  <ul>
+    <li *ngFor ="let goal of goals">
+        {{goal.id}} {{goal.name}}
+    </li>
+  </ul>
+</div>
+
