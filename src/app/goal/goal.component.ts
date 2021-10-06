@@ -7,7 +7,7 @@ import { IGoals } from './goal';
   styleUrls: ['./goal.component.css']
 })
 export class GoalComponent implements OnInit {
-
+   showDescription: boolean = false
   goals: IGoals[] = [
     {
       "id": 1,
@@ -41,6 +41,9 @@ export class GoalComponent implements OnInit {
     },
   ];
 
+  toggleDescription(): void {
+    this.showDescription =! this.showDescription;
+  }
   ngOnInit(): void {
   }
 
