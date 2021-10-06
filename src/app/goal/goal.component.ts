@@ -21,12 +21,12 @@ export class GoalComponent implements OnInit {
     },
     {
       "id":3,
-      name:'Get new Phone Case',
+      "name":'Get new Phone Case',
       "description":"Diana has her birthday coming up soon"
     },
     {
       "id":4,
-      name:'Get Dog Food',
+      "name":'Get Dog Food',
       "description":"Pupper likes expensive sancks"
     },
     {
