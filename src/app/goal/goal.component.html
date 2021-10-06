@@ -2,8 +2,8 @@
   <h2 class="display-2">My Goals</h2>
   <hr>
   <ul>
-    <li *ngFor ="let goal of goals">
-         {{goal.name}} -
+    <li appStrikethrough *ngFor ="let goal of goals">
+         {{goal.name}} due on {{goal.completeDate | date}}
          <button  class="btn btn-primary" (click) = "toggleDescription()">
            Show Description</button>
           <p *ngIf="showDescription">{{goal.description}}</p>

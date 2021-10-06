@@ -12,32 +12,38 @@ export class GoalComponent implements OnInit {
     {
       "id": 1,
       "name":'Watch finding Nemo',
-      "description":"Find an online version and watch merlin find his son"
+      "description":"Find an online version and watch merlin find his son",
+      "completeDate":new Date(2020,3,14)
     },
     {
       "id":2,
       "name":'Buy Cookies',
-      "description":"I have to buy cookies for the parrot"
+      "description":"I have to buy cookies for the parrot",
+      "completeDate":new Date(2019,6,9)
     },
     {
       "id":3,
       "name":'Get new Phone Case',
-      "description":"Diana has her birthday coming up soon"
+      "description":"Diana has her birthday coming up soon",
+      "completeDate":new Date(2022,1,12)
     },
     {
       "id":4,
       "name":'Get Dog Food',
-      "description":"Pupper likes expensive sancks"
+      "description":"Pupper likes expensive sancks",
+      "completeDate":new Date(2022,1,12)
     },
     {
       "id":5,
       "name":'Solve math homework',
-      "description":"Damn Math"
+      "description":"Damn Math",
+      "completeDate":new Date(2019,2,14)
     },
     {
       "id":6,
       "name":'Plot my world domination plan',
-      "description":"Cause I am an evil overlord"
+      "description":"Cause I am an evil overlord",
+      "completeDate":new Date(2030,3,14)
     },
   ];
 
